@@ -1,0 +1,177 @@
+body{
+ padding: 0;
+ margin: 0;
+ 
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ border: 2px solid black;
+ max-width: 100%;
+}
+.logo{
+ display:flex;
+ margin-top: 16px;
+ margin-left: 40px;
+
+}
+header ul{
+ display: flex;
+}
+li{
+ list-style: none;
+}
+li a{
+ text-decoration: none;
+}
+.begin li a{
+ margin: 10px 15px;
+}
+.begin button{
+ padding: 18px 50px ;
+ background-color: darkgreen;
+ color: #fff;
+ font-size: 1.2em;
+ border: none;
+ border-radius: 25px;
+ outline: none;
+}
+.main{
+ width: 25%;
+ height: 100vh;
+border-right: 1px solid #4a4a4c;
+padding: 20px 20px 0 20px;
+background-color: #fff;
+/* position: absolute; */
+}
+.main img{
+ margin-top: 1px;
+ width: 100px;
+ height: 100px;
+}
+.main-profile{
+ display: flex;
+}
+.yo{
+ margin-left: 5px;
+}
+.yo h1{
+margin: 10px 0 5px 0px;
+}
+.yo p{
+ margin: 0 0 10px 0;
+ font-size: 1.2em;
+}
+.main a{
+ padding-top: 40px;
+}
+.profile{
+ position: relative;
+ overflow: hidden;
+ height: 100vh;
+}
+.content{
+ position: absolute;
+/* display: flex; */
+justify-content: center;
+left: 30%;
+padding: 80px 0;
+}
+.search{
+ width: 100%;
+}
+input{
+ padding: 20px;
+ width: 900px;
+ border-radius: 25px;
+ font-size: 1.2em;
+}
+
+.content-box{
+ padding: 60px 40px 20px 40px;
+}
+.content-box h1{
+ margin-bottom: 0;
+ padding: 10px 10px 0 10px;
+ color: darkgreen;
+}
+.content-box p{
+ margin: 0;
+ padding: 10px;
+ font-size: 1.2em;
+ color: grey;
+}
+button.ask{
+ padding: 10px 20px;
+ margin-left: 10px;
+ border-radius: 15px;
+ font-size: 1.3em;
+ background-color: darkgreen;
+ opacity: 0.8;
+}
+.q-bar{
+ display: flex;
+ padding: 0px 40px 20px 40px;
+}
+.q-icon{
+ padding: 30px 0 0 0;
+}
+.q-quest{
+ padding-left: 10px;
+}
+.q-quest h2{
+ margin-bottom: 0;
+ color: darkgreen;
+ font-weight: 300;
+}
+.q-quest p{
+ margin: 5px;
+ color: grey;
+}
+.image-left{
+position: absolute;
+bottom: -140px;
+left: 50px;
+}
+.image-right{
+ position: absolute;
+ top: 100px;
+ right: -100px;
+}
+
+.pro{
+ display: flex;
+ margin-left: 40px;
+ margin-top: 0;
+}
+.pro-box{
+ padding-right: 30px;
+}
+.pro-box h1{
+ margin-top: 0;
+ margin-left: 20px;
+ margin-bottom: 0;
+}
+.pro-box p{
+ margin: 0;
+ font-size: 1.2em;
+}
+.side-list{
+ display: flex;
+ margin: 0px ;
+ align-items: center;
+}
+.list-img img{
+ width: 30px;
+ height: 30px;
+ padding: 15px;
+}
+.side-list a{
+ padding: 0 0 15px 0;
+ text-decoration: none;
+ color: #000;
+}
+select{
+ margin-bottom: 10px;
+ border: 0;
+}
