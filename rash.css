@@ -175,3 +175,33 @@ select{
  margin-bottom: 10px;
  border: 0;
 }
+ /* Library css */
+ .topic{
+    padding: 30px 20px 10px 20px;
+ }
+ .course-box{
+    width: 1400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    background-color: #d0ead8;
+    margin: 20px 0;
+ }
+ .course-cont{
+    display: flex;
+ }
+ .course-img{
+    padding: 20px 10px;
+ }
+ .clo{
+    padding: 20px;
+ }
+ button.course-btn{
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+ }
+ .course-btn{
+    margin: 20px 0;
+ }
